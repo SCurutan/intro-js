@@ -115,6 +115,9 @@ function squareNumber(number) {
     return resultSix
 }
 
+// Test of numbers being logged with just function used and no let statement
+// squareNumber(5)
+
 let number = 4
 let eleExSix = document.querySelector(`#ex6`)
 eleExSix.textContent = `The square of ${number} is ${squareNumber(number)}`
@@ -128,6 +131,9 @@ function halfNumber(num) {
     return resultSeven
 }
 
+// Test of numbers being logged with just function used and no let statement
+// halfNumber(66)
+
 let num = 88
 let eleExSeven = document.querySelector(`#ex7`)
 eleExSeven.textContent = `Half of ${num} is ${halfNumber(num)}`
@@ -140,6 +146,9 @@ function percentOf(a, b) {
     console.log(`${a} is ${a/b*100}% of ${b}`);
     return resultEight
 }
+
+// Test of numbers being logged with just function used and no let statement
+// percentOf(3,10)
 
 let a = 4
 let b = 8
@@ -155,6 +164,9 @@ function areaOfCircle(rad) {
     console.log(`The area for a circle with radius ${rad} is ${Math.round((Math.PI * (rad ** 2))*100)/100}`)
     return resultNine
 }
+
+// Test of numbers being logged with just function used and no let statement
+// areaOfCircle(9)
 
 let rad = 8
 let eleExNine = document.querySelector(`#ex9`)
@@ -182,6 +194,9 @@ function totalPerc(aNumber) {
     console.log(`The percentage that the area is of the squared result is ${Math.round(percentage*100)/100}%`);
     return Math.round(percentage*100)/100
 }
+
+// Test of numbers being logged with just function used and no let statement
+// totalPerc(3)
 
 let eleExTen = document.querySelector(`#ex10`)
 eleExTen.textContent = `The percentage that the area is of the squared result is ${totalPerc(1)}%`
