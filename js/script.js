@@ -115,8 +115,9 @@ function squareNumber(number) {
     return resultSix
 }
 
+let number = 4
 let eleExSix = document.querySelector(`#ex6`)
-eleExSix.textContent = `The square of 2 is ${squareNumber(2)}`
+eleExSix.textContent = `The square of ${number} is ${squareNumber(number)}`
 
 // EXERCISE 2
 // Write a function named halfNumber that will take one argument (a number), divide it by 2, and return the result. It should also log a string like "Half of 5 is 2.5.".
@@ -127,8 +128,9 @@ function halfNumber(num) {
     return resultSeven
 }
 
+let num = 88
 let eleExSeven = document.querySelector(`#ex7`)
-eleExSeven.textContent = `Half of 88 is ${halfNumber(88)}`
+eleExSeven.textContent = `Half of ${num} is ${halfNumber(num)}`
 
 // EXERCISE 3
 // Write a function named percentOf that will take two numbers, figure out what percent the first number represents of the second number, and return the result. It should also log a string like "2 is 50% of 4."
@@ -139,21 +141,24 @@ function percentOf(a, b) {
     return resultEight
 }
 
+let a = 4
+let b = 8
 let eleExEight = document.querySelector(`#ex8`)
-eleExEight.textContent = `3 is ${percentOf(3,10)}% of 10`
+eleExEight.textContent = `${a} is ${percentOf(a,b)}% of ${b}`
 
 // EXERCISE 4
 // Write a function named areaOfCircle that will take one argument (the radius), calculate the area based on that, and return the result. It should also log a string like "The area for a circle with radius 2 is 12.566370614359172."
 //      Bonus: Round the result so there are only two digits after the decimal.
 
-function areaOfCircle(radius) {
-    let resultNine = Math.round((Math.PI * (radius ** 2))*100)/100
-    console.log(`The area for a circle with radius ${radius} is ${Math.round((Math.PI * (radius ** 2))*100)/100}`)
+function areaOfCircle(rad) {
+    let resultNine = Math.round((Math.PI * (rad ** 2))*100)/100
+    console.log(`The area for a circle with radius ${rad} is ${Math.round((Math.PI * (rad ** 2))*100)/100}`)
     return resultNine
 }
 
+let rad = 8
 let eleExNine = document.querySelector(`#ex9`)
-eleExNine.textContent = `The area of a circle with radius 8 is ${areaOfCircle(8)}`
+eleExNine.textContent = `The area of a circle with radius ${rad} is ${areaOfCircle(rad)}`
 
 // EXERCISE 5
 // Write a function that will take one argument (a number) and perform the following operations, using the functions you wrote earlier
